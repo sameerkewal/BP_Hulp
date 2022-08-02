@@ -16,7 +16,7 @@ public class PersoonRepository {
 
             String URL = "jdbc:mysql://localhost:3306/klant";
             String USER = "root";
-            String PASS = "sadk2005";
+            String PASS = "";
             connection = DriverManager.getConnection(URL, USER, PASS);
             System.out.println(connection);
         } catch (ClassNotFoundException ex) {
